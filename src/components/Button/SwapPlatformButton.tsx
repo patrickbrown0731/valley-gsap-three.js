@@ -52,7 +52,7 @@ function openPlatformLink(platform: string | null) {
   switch (platform) {
     case "android":
       return Linking.openURL(
-        "https://play.google.com/store/apps/details?id=com.evanbacon.pillarvalley"
+        "https://play.google.com/store/apps/details?id=com.example.pillarvalley"
       );
     case "ios":
       return Linking.openURL(

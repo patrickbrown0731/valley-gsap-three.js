@@ -101,7 +101,7 @@ struct PillarProvider: TimelineProvider {
   }
   
   func getTimeline(in context: Context, completion: @escaping (Timeline<PillarEntry>) -> Void) {
-    let userDefaults = UserDefaults(suiteName: "group.bacon.data")
+    let userDefaults = UserDefaults(suiteName: "group.example.data")
     let pillars = userDefaults?.integer(forKey: "pillarsTraversed") ?? 0
     let entry = PillarEntry(date: Date(), pillarsTraversed: pillars)
     

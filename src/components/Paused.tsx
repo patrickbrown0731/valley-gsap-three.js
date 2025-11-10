@@ -58,7 +58,6 @@ export default function Paused() {
           marginBottom: 24,
         }}
       >
-        Also you can follow me on 𝕏 @baconbrix
       </Animatable.Text>
     </BlurView>
   );

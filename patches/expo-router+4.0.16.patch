@@ -152,14 +152,14 @@ index 8cedf15..ab8e7ea 100644
      }
 -    return getInitialURLWithTimeout().then((url) => parseExpoGoUrlFromListener(url) ??
 -        // The path will be nullish in bare apps when the app is launched from the home screen.
--        // TODO(EvanBacon): define some policy around notifications.
+-        // TODO: define some policy around notifications.
 -        getRootURL());
 +  }
 +  const url = Linking.getLinkingURL();
 +  const iurl =
 +    parseExpoGoUrlFromListener(url) ??
 +    // The path will be nullish in bare apps when the app is launched from the home screen.
-+    // TODO(EvanBacon): define some policy around notifications.
++    // TODO: define some policy around notifications.
 +    getRootURL();
 +
 +  console.log("internal url:", iurl, url);

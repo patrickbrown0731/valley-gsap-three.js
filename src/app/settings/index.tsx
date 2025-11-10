@@ -149,7 +149,7 @@ function PreferencesScreen() {
             </LeftIconWrapper>
           ),
           title: "Star on Github",
-          href: "https://github.com/EvanBacon/pillar-valley/stargazers",
+          href: "https://github.com/example/pillar-valley/stargazers",
         },
         {
           leftIcon: (
@@ -158,7 +158,7 @@ function PreferencesScreen() {
             </LeftIconWrapper>
           ),
           title: "Report a bug",
-          href: "https://github.com/EvanBacon/pillar-valley/issues/new",
+          href: "https://github.com/example/pillar-valley/issues/new",
         },
       ].filter(Boolean),
     },
@@ -167,42 +167,11 @@ function PreferencesScreen() {
       data: [
         // {
         //   title: "YouTube",
-        //   value: "Evan Bacon",
+        //   value: "",
         //   onPress: () => {
-        //     Linking.openURL("https://www.youtube.com/baconbrix");
+        //     Linking.openURL("");
         //   },
         // },
-        {
-          leftIcon: (
-            <LeftIconWrapper>
-              <XSvg height={14} width={14} />
-            </LeftIconWrapper>
-          ),
-          title: "X",
-          value: "@baconbrix",
-          href: "https://x.com/baconbrix",
-        },
-        {
-          leftIcon: (
-            <LeftIconWrapper>
-              <InstagramSvg height={14} width={14} />
-            </LeftIconWrapper>
-          ),
-          title: "Instagram",
-          value: "@baconbrix",
-          href: "https://www.instagram.com/baconbrix",
-        },
-
-        {
-          leftIcon: (
-            <LeftIconWrapper>
-              <GitHubSvg height={14} width={14} />
-            </LeftIconWrapper>
-          ),
-          title: "Github",
-          value: "EvanBacon",
-          href: "https://github.com/evanbacon",
-        },
       ].filter(Boolean),
     },
     {

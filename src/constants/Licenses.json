@@ -7,14 +7,14 @@
     },
     "@bacons/apple-colors@0.0.8": {
         "licenses": "MIT",
-        "repository": "https://github.com/evanbacon/expo-apple-colors",
-        "licenseUrl": "https://github.com/evanbacon/expo-apple-colors/raw/master/LICENSE",
+        "repository": "https://github.com/example/expo-apple-colors",
+        "licenseUrl": "https://github.com/example/expo-apple-colors/raw/master/LICENSE",
         "parents": "pillar-valley"
     },
     "@bacons/apple-targets@0.1.0": {
         "licenses": "MIT",
-        "repository": "https://github.com/evanbacon/expo-apple-targets",
-        "licenseUrl": "https://github.com/evanbacon/expo-apple-targets/raw/master/LICENSE",
+        "repository": "https://github.com/example/expo-apple-targets",
+        "licenseUrl": "https://github.com/example/expo-apple-targets/raw/master/LICENSE",
         "parents": "pillar-valley"
     },
     "@config-plugins/apple-settings@3.0.0": {
@@ -151,7 +151,7 @@
     },
     "expo-quick-actions@3.0.0": {
         "licenses": "MIT",
-        "licenseUrl": "https://github.com/evanbacon/expo-quick-actions/",
+        "licenseUrl": "https://github.com/example/expo-quick-actions/",
         "parents": "pillar-valley"
     },
     "expo-router@4.0.11": {

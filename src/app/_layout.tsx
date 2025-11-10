@@ -265,7 +265,7 @@ if (process.env.EXPO_OS !== "web") {
 //     "subtitle": "Please provide feedback before deleting the app",
 //     "icon": "symbol:envelope",
 //     "id": "4",
-//     "params": { "href": "mailto:support@myapp.dev" },
+//     "params": { "href": "mailto:support@example.com" },
 //   }
 function AnimatedSplashScreen({ children, loading, image }) {
   const animation = React.useMemo(() => new Animated.Value(1), []);

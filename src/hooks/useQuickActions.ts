@@ -55,7 +55,7 @@ export function useDynamicQuickActions() {
         }),
         params: {
           href:
-            "mailto:bacon@expo.dev?subject=" +
+            "mailto:support@example.com?subject=" +
             // Set a default subject line that I can filter against
             encodeURIComponent(
               "[Pillar Valley]: I have feedback on Pillar Valley"

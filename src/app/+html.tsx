@@ -15,7 +15,7 @@ export default function Root({ children }: { children: React.ReactNode }) {
         />
         <InstallBanner
           id="1336398804"
-          appClipBundleId="com.evanbacon.pillarvalley.clip"
+          appClipBundleId="com.example.pillarvalley.clip"
         />
         <ScrollViewStyleReset />
         <meta name="mobile-web-app-capable" content="yes" />

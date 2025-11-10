@@ -2,7 +2,7 @@
   "configVersion": 0,
   "apple": {
     "version": "12.0.3",
-    "copyright": "2025 Evan Bacon",
+    "copyright": "2025",
     "release": {
       "automaticRelease": true
     },
@@ -27,7 +27,7 @@
         "releaseNotes": "Update to Expo SDK 52 and improve universal links",
         "marketingUrl": "https://pillarvalley.expo.app/",
         "promoText": "Immerse yourself in a suave world of zen",
-        "supportUrl": "https://github.com/EvanBacon/Expo-Pillar-Valley/issues",
+        "supportUrl": "https://github.com/example/pillar-valley/issues",
         "title": "Pillar Valley",
         "subtitle": "The Finest of Gaming",
         "privacyPolicyUrl": "https://pillarvalley.expo.app/privacy",
@@ -62,12 +62,12 @@
       "kidsAgeBand": null
     },
     "review": {
-      "firstName": "Evan",
-      "lastName": "Bacon",
-      "email": "baconbrix@gmail.com",
-      "phone": "2243030301",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phone": "",
       "demoRequired": false,
-      "notes": "I <3 U"
+      "notes": ""
     }
   }
 }

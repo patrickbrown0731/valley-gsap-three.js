@@ -20,7 +20,7 @@
       }
     },
     "icon": "./icons/pillars/default.png",
-    "githubUrl": "https://github.com/evanbacon/expo-pillar-valley",
+    "githubUrl": "https://github.com/example/pillar-valley",
     "splash": {
       "image": "./icons/splash.png",
       "backgroundColor": "#F09458",
@@ -51,7 +51,7 @@
         "dark": "./icons/pillars/default-dark.png"
       },
       "supportsTablet": true,
-      "bundleIdentifier": "com.evanbacon.pillarvalley",
+      "bundleIdentifier": "com.example.pillarvalley",
       "googleServicesFile": "./GoogleService-Info.plist",
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-2312569320461549~5287895909",
@@ -61,7 +61,7 @@
         "ITSAppUsesNonExemptEncryption": false
       },
       "entitlements": {
-        "com.apple.security.application-groups": ["group.bacon.data"]
+        "com.apple.security.application-groups": ["group.example.data"]
       },
       "associatedDomains": [
         "applinks:pillarvalley.expo.app",
@@ -71,12 +71,12 @@
     },
     "newArchEnabled": true,
     "android": {
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.evanbacon.pillarvalley",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.example.pillarvalley",
       "adaptiveIcon": {
         "foregroundImage": "./icons/pillars/default.png",
         "backgroundColor": "#F09458"
       },
-      "package": "com.evanbacon.pillarvalley",
+      "package": "com.example.pillarvalley",
       "googleServicesFile": "./google-services.json",
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-2312569320461549~8488774315",

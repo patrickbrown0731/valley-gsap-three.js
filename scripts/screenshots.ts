@@ -272,7 +272,7 @@ async function getInfoPlistAsync(binaryPath: string): Promise<any> {
 }
 
 // From: `EXPO_DEBUG=1 npx expo run:ios --configuration Release`
-// /Users/evanbacon/Library/Developer/Xcode/DerivedData/PillarValley-avtqstqrqkadpuefualysygwukgh/Build/Products/Release-iphonesimulator/PillarValley.app
+// /Users/example/Library/Developer/Xcode/DerivedData/PillarValley-avtqstqrqkadpuefualysygwukgh/Build/Products/Release-iphonesimulator/PillarValley.app
 // Parsing command-line arguments
 const ipaPath = process.argv[2];
 

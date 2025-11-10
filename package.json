@@ -1,6 +1,5 @@
 {
   "name": "pillar-valley",
-  "author": "Evan Bacon",
   "private": true,
   "main": "expo-router/entry",
   "scripts": {
@@ -17,7 +16,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "postinstall": "npx patch-package",
-    "app-clip-code": "AppClipCodeGenerator generate --url https://pillarvalley.expo.app --foreground 000000 --background EE7733 --output ~/documents/github/personal/pillar-valley/app-clip.svg"
+    "app-clip-code": "AppClipCodeGenerator generate --url https://pillarvalley.expo.app --foreground 000000 --background EE7733 --output ./app-clip.svg"
   },
   "jest": {
     "preset": "jest-expo"

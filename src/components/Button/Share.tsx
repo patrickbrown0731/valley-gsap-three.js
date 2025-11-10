@@ -14,7 +14,7 @@ class ShareButton extends React.Component {
     // const url = await AssetUtils.uriAsync(image);
     const appName = Constants.expoConfig?.name;
     const title = `${appName}`;
-    const message = `OMG! I got ${score} points in @baconbrix ${appName}. ${
+    const message = `OMG! I got ${score} points in ${appName}. ${
       storeUrl() || ""
     }`;
     logEvent("share", { score });

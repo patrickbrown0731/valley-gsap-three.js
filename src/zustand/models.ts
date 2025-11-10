@@ -10,7 +10,7 @@ import Challenges from "@/constants/Achievements";
 import { logEvent } from "@/lib/Analytics";
 import { Settings } from "@/lib/Settings";
 
-const extStorage = new ExtensionStorage("group.bacon.data");
+const extStorage = new ExtensionStorage("group.example.data");
 
 export type PresentAchievementShape = null | {
   id: string;
@@ -271,7 +271,7 @@ export const useScore = create(
             useAchievements.getState().unlock("total-score-500");
           }
 
-          // Update for Widgets using the app group `group.bacon.data`
+          // Update for Widgets using the app group `group.example.data`
           extStorage.set("pillarsTraversed", total);
           ExtensionStorage.reloadWidget();
 
